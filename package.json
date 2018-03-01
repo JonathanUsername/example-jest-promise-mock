@@ -1,0 +1,18 @@
+{
+  "name": "@jonathanusername/test-promise-polyfill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn add promise-polyfill@7.0.0 && yarn && jest tests",
+    "test2": "yarn remove promise-polyfill && yarn && jest tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.3.1",
+    "jest": "21.2.1",
+    "promise-mock": "^2.0.1",
+    "promise-polyfill": "7.0.0"
+  }
+}
